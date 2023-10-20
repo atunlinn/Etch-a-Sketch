@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch Project</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div ><h1>Etch-A-Sketch</h1></div>
+
+     <div class="resize">
+        
+    <button class="darkcyan" onclick="resize()">Resize</button>
+     </div>
+     
+    <div class="container"></div>
+    <div id="gBtns">
+        <button id="yellow1" onclick="pickedColor('yellow')">Yellow</button>
+        <button id="silver1" onclick="pickedColor('silver')">Silver</button>
+        <button id="random1" onclick="pickedColor('random')">Random</button>
+        <button id="reset1" onclick="reset()">Reset</button>
+
+    </div>     
+    <script src="app.js" ></script>
+</body>
+</html>
